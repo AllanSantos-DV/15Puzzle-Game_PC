@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane nodeOrientation="LEFT_TO_RIGHT" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.allan._15puzzle.PuzzleController">
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+   <GridPane fx:id="gridPane" gridLinesVisible="true" layoutX="0.5" layoutY="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0">
+      <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <Button fx:id="btn1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="M" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="13.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="A" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn3" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="13.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="T" GridPane.columnIndex="2">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn4" alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="13.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="O" GridPane.columnIndex="3">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn5" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="13.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="A" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn6" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="138.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn7" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="138.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="O" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn8" alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="138.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="R" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn9" alignment="CENTER" contentDisplay="CENTER" layoutX="385.0" layoutY="138.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="C" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn10" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="O" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn11" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="C" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn12" alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="A" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn13" alignment="CENTER" contentDisplay="CENTER" layoutX="385.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="U" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn14" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="V" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn15" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="263.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: beige;" text="A" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </GridPane>
+   <GridPane layoutX="501.0" layoutY="1.0" prefHeight="250.0" prefWidth="200.0">
+      <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <Button fx:id="btnStart" mnemonicParsing="false" text="Começar" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets top="15.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnReset" alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="10.0" mnemonicParsing="false" text="Resetar" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="15.0" />
+         </GridPane.margin>
+      </Button>
+      <Label fx:id="lblTimer" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: lightgray;" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="25.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="lblMoveCounter" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="147.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: lightgray;" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="20.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Tempo" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="8.0" />
+         </GridPane.margin>
+      </Label>
+      <Label layoutX="92.0" layoutY="132.0" text="Movimentos" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets top="19.0" />
+         </GridPane.margin>
+      </Label>
+   </GridPane>
+   <Label layoutX="564.0" layoutY="251.0" text="MATO">
+      <font>
+         <Font size="26.0" />
+      </font>
+   </Label>
+   <Label layoutX="564.0" layoutY="289.0" text="AMOR">
+      <font>
+         <Font size="26.0" />
+      </font>
+   </Label>
+   <Label layoutX="564.0" layoutY="327.0" text="COCA">
+      <font>
+         <Font size="26.0" />
+      </font>
+   </Label>
+   <Label layoutX="564.0" layoutY="365.0" text="UVA">
+      <font>
+         <Font size="26.0" />
+      </font>
+   </Label>
+</Pane>
